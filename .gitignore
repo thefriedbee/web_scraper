@@ -5,9 +5,13 @@ build/
 dist/
 wheels/
 *.egg-info
+.env
 
 # Virtual environments
 .venv
 
 .ipynb_checkpoints
+.uv.lock
 
+# lock files
+uv.lock
